@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Tutorial Site",
+    title: "Outdoor Source",
   },
   plugins: [
     "gatsby-plugin-image",
@@ -13,5 +13,6 @@ module.exports = {
       },
     },
     "gatsby-plugin-mdx",
+    "gatsby-transformer-sharp",
   ],
 };
